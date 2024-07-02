@@ -58,6 +58,11 @@ function butotnClick() {
         msg_three.innerText = '3音は' + Scale[input[0] - 1] + 'です';
         msg_five.innerText = '5音は' + Scale[input[1] - 1] + 'です';
         msg_witch.innerText = 'この和音は短調です';
+    } else{
+        msg_one.innerText = '選択肢が間違っている可能性があります';
+        msg_three.innerText = ' ';
+        msg_five.innerText = ' ';
+        msg_witch.innerText = ' ';
     }
 }
 let Select1 = document.getElementById('Select1');
