@@ -71,11 +71,11 @@ p {
     }
 
     h1 {
-        font-size: 32px;
+        font-size: 48px;  /* 1.5倍に拡大 */
     }
 
     label, select, input[type="button"], p {
-        font-size: 20px;
+        font-size: 30px;  /* 1.5倍に拡大 */
     }
 
     input[type="button"] {
@@ -84,6 +84,6 @@ p {
     }
 
     #msg_one, #msg_three, #msg_five, #msg_witch {
-        font-size: 20px;
+        font-size: 30px;  /* 1.5倍に拡大 */
     }
 }
