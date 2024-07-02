@@ -35,9 +35,7 @@ function butotnClick() {
         msg_three.innerText = '3音は' + Scale[input[2] - 1] + 'です';
         msg_five.innerText = '5音は' + Scale[input[0] - 1] + 'です';
         msg_witch.innerText = 'この和音は長調です';
-    }
-
-    if (input[0] + 3 == input[1] && input[1] + 4 == input[2]) {//メジャー基本形
+    }else if(input[0] + 3 == input[1] && input[1] + 4 == input[2]) {//メジャー基本形
         console.log("短調（マイナーコード）")
         console.log("基本形")
         msg_one.innerText = '根音は' + Scale[input[0] - 1] + 'です';
